@@ -82,6 +82,8 @@ onDragLeave(event) {
         productos_categoria.push(producto); // se gemera un arreglo de arreglos de categorias y sus productos
       });
       this.productos_categoria = productos_categoria;
+      this.cantidad_cambios=null
+      this.elemento_drageado =null;
     }
     reader.readAsBinaryString(file);
   }
